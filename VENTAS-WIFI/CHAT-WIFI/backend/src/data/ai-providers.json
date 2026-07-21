@@ -1,0 +1,135 @@
+[
+  {
+    "id": "2436407d-fdc8-4006-96cd-af2742cb50e1",
+    "name": "Grok",
+    "apiKey": "700e12def4114c2c204626a20fd8b520:e3237e61895d04200a5936e15340dff3:30d726a5f05ce791cefdf0199d48eded3e2f7f6c3bd5972f90e015b79ffb1bc32b512afb711f2b2404cbf1a49ea8ce6e3f782a0dc5fe6ad5",
+    "status": "active",
+    "queuePosition": 0,
+    "usageLogs": [
+      {
+        "timestamp": "2026-07-05T06:17:56.365Z",
+        "event": "created",
+        "reason": "New provider added"
+      },
+      {
+        "timestamp": "2026-07-05T06:18:06.872Z",
+        "event": "activated",
+        "reason": "Manually activated by user"
+      }
+    ],
+    "lastUsed": "2026-07-05T06:18:06.872Z",
+    "errorCount": 0
+  },
+  {
+    "id": "7acf9034-74ab-4087-9292-5f3257f2844d",
+    "name": "Grok",
+    "apiKey": "1df047b3d38e4e90cb8e58700a3a240d:1c57576b87882cad225e78617c591ab7:a182d753299f766876922a46e254fc595851e9496ba99e52d43d43e3108999ae986b197b95a565769e1735d8e3229f9c1b2bafdb47f6cb5d",
+    "status": "available",
+    "queuePosition": 1,
+    "usageLogs": [
+      {
+        "timestamp": "2026-07-05T06:21:00.429Z",
+        "event": "created",
+        "reason": "New provider added"
+      }
+    ],
+    "lastUsed": null,
+    "errorCount": 0
+  },
+  {
+    "id": "512bcf23-1576-48ca-b6bc-130f314f7978",
+    "name": "Gemini",
+    "apiKey": "6d0b9f580ecbf82a4e2b6b17b195386d:d3992b674cee8f0fe5fb95943f93c8d8:fbc54f63a6e9f33333b4e3db467e10f940bece9fe40ea3773d83626eff85e1724d6d297f55a4f2a9582e8cc8b055a50e5a3b151eb6",
+    "status": "available",
+    "queuePosition": 2,
+    "usageLogs": [
+      {
+        "timestamp": "2026-07-05T06:37:13.194Z",
+        "event": "created",
+        "reason": "New provider added"
+      }
+    ],
+    "lastUsed": null,
+    "errorCount": 0
+  },
+  {
+    "id": "e041369e-acc8-41f8-83d1-83b0bc228f89",
+    "name": "Gemini",
+    "apiKey": "0d033a4fbb50b9a4550004eb0ecec0a4:8e9b5329c470904c52b258ddce8ad913:c9c9cc0f5524f3810136c5f826450ba196c3c3f379f7dfe1ab0a10a6b7ba28954df81818ccd0167a14662789d70f5f84fa6de5a6dd",
+    "status": "available",
+    "queuePosition": 3,
+    "usageLogs": [
+      {
+        "timestamp": "2026-07-05T06:37:53.764Z",
+        "event": "created",
+        "reason": "New provider added"
+      }
+    ],
+    "lastUsed": null,
+    "errorCount": 0
+  },
+  {
+    "id": "9dddd1d1-21b6-4006-b7df-39349b055d69",
+    "name": "Gemini",
+    "apiKey": "5b6f023993a79cb1321db23d3187065d:003ba2516369ea88941f3c0eba1efcc0:f9e526f2536023d7e26b11d143109cd28753d0e16d4ec4b9ae810dc46d6418e91a3e7d333719b638aa1742ffd2a0ca16ed825e06de",
+    "status": "available",
+    "queuePosition": 4,
+    "usageLogs": [
+      {
+        "timestamp": "2026-07-05T06:38:35.624Z",
+        "event": "created",
+        "reason": "New provider added"
+      }
+    ],
+    "lastUsed": null,
+    "errorCount": 0
+  },
+  {
+    "id": "60f389c9-fdf9-4f50-963a-20a7bba62d3c",
+    "name": "Grok",
+    "apiKey": "50f29f14c6b2319d5bd780f213cee092:e7c5aa9308214344373bdbd7f815102c:fd50ad40c97f5e2b0bf9eb78a35704c4e3322549ebc721abc07583c13c47e4ad444571fb6d7d3811ca34827593c065fbd627b35a1a600a96",
+    "status": "available",
+    "queuePosition": 5,
+    "usageLogs": [
+      {
+        "timestamp": "2026-07-05T06:39:05.198Z",
+        "event": "created",
+        "reason": "New provider added"
+      }
+    ],
+    "lastUsed": null,
+    "errorCount": 0
+  },
+  {
+    "id": "2540a7d7-9047-49f3-a472-c00037e30981",
+    "name": "Grok",
+    "apiKey": "5590c80dfe417d9140aa77567c5cccde:b84902f4015eaa9f56c979670cefc191:18cde9a96d09015c9e898d11384fc5f39d19e8d0478c919cb6e787cceb341f8662f4fc1356d422ceca7e05ba2c9fc6905e42ecb28175f0b5",
+    "status": "available",
+    "queuePosition": 6,
+    "usageLogs": [
+      {
+        "timestamp": "2026-07-05T06:39:27.018Z",
+        "event": "created",
+        "reason": "New provider added"
+      }
+    ],
+    "lastUsed": null,
+    "errorCount": 0
+  },
+  {
+    "id": "d62599d7-307e-4674-be51-45ad88c0f8f2",
+    "name": "Grok",
+    "apiKey": "903037401429a41155820d64758e7002:511dffa6cf660e00f125906c6f3f33cf:2a17fdcebd5c8f33ac7c31ced8ee7a3d53fdd0392c6927bec8f822d36cae0c9175c5388c1123de32c9e3bd76409a1bddf818aec1d6a78f3b",
+    "status": "available",
+    "queuePosition": 7,
+    "usageLogs": [
+      {
+        "timestamp": "2026-07-05T06:42:41.167Z",
+        "event": "created",
+        "reason": "New provider added"
+      }
+    ],
+    "lastUsed": null,
+    "errorCount": 0
+  }
+]

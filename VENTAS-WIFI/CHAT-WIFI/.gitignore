@@ -1,0 +1,57 @@
+# Root .gitignore
+node_modules/
+.env
+dist/
+.DS_Store
+*.log
+
+# ── Backend: Session (WhatsApp auth keys — never commit) ──
+backend/session/
+
+# ── Backend: Google Cloud credentials (NEVER commit) ──
+backend/google-credentials.json
+lithe-catbird-*.json
+google-credentials.json
+
+# ── Backend: Runtime data (generated at runtime, not config) ──
+# These are per-server state files that should NOT be committed
+backend/data/chat-history.json
+backend/data/welcome-user-states.json
+backend/data/follow-up-states.json
+backend/data/media/
+backend/data/media.db
+backend/data/media.db-shm
+backend/data/media.db-wal
+backend/data/temp/
+
+# ── IMPORTANT: These files ARE tracked (config & knowledge) ──
+# backend/data/welcome-automation.json     → Welcome config (messages, delays, etc.)
+# backend/data/ai-automations.json         → AI automation toggles
+# backend/data/ai-fallback.json            → Fallback & admin number config
+# backend/data/follow-up-config.json       → Follow-up automation config
+# backend/data/blocked-numbers.json        → Blocked numbers list
+# backend/data/bot-config.json             → Bot general config
+# backend/src/data/ai-providers.json       → AI provider keys (encrypted)
+# backend/knowledge-base/                  → Full knowledge base (entries + vectors)
+# backend/public/uploads/                  → Welcome audio, video, images
+
+# Note: scripts/ is intentionally tracked in git (deploy tools)
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build and Temp
+build/
+temp/
+out/

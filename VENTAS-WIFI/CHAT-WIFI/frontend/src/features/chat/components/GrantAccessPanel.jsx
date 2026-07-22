@@ -3,6 +3,9 @@ import { KeyRound, Send, RefreshCw, CheckCircle2, AlertTriangle, Loader2, Edit3,
 import api from '../../../services/api';
 
 const GrantAccessPanel = ({ jid }) => {
+    // Feature disabled per client request
+    return null;
+
     const [record, setRecord] = useState(null);
     const [email, setEmail] = useState('');
     const [plan, setPlan] = useState('combo-10');

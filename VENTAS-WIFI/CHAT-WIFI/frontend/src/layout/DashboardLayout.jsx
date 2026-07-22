@@ -144,15 +144,6 @@ const DashboardLayout = () => {
                     <span>Reglas IA</span>
                 </NavLink>
 
-                <NavLink to="/course-access" className={({ isActive }) => `mobile-nav-item ${isActive ? 'active' : ''}`}>
-                    <Mail size={20} />
-                    <span>Acceso</span>
-                </NavLink>
-
-                <NavLink to="/emails" className={({ isActive }) => `mobile-nav-item ${isActive ? 'active' : ''}`}>
-                    <HardDrive size={20} />
-                    <span>Drive</span>
-                </NavLink>
 
 
                 <button onClick={handleLogout} className="mobile-nav-item" style={{ background: 'none', border: 'none', cursor: 'pointer' }}>

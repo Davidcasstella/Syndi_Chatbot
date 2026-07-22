@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet, NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { LayoutDashboard, LogOut, QrCode, BrainCircuit, BookOpen, ShieldBan, BellRing, ScrollText, Mail, HardDrive } from 'lucide-react';
+import { LayoutDashboard, LogOut, QrCode, BrainCircuit, BookOpen, ShieldBan, BellRing, ScrollText } from 'lucide-react';
 import api from '../services/api';
 import logo from '../Logo/logo.png';
 import Header from '../components/ui/Header';
@@ -82,15 +82,7 @@ const DashboardLayout = () => {
                         <span>Reglas de IA</span>
                     </NavLink>
 
-                    <NavLink to="/course-access" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-                        <Mail size={18} />
-                        <span>Acceso Cursos</span>
-                    </NavLink>
 
-                    <NavLink to="/emails" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-                        <HardDrive size={18} />
-                        <span>Correos y Drive</span>
-                    </NavLink>
 
 
                     <button onClick={handleLogout} className="nav-item logout-nav-link" style={{ width: '100%', background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left' }}>
